@@ -8,8 +8,8 @@ Output: El 15 no es divisible por 2.
 */
 
 let num1 =(prompt (''));
-let valor = num1 % 2
-if ( valor == 0) {
+
+if ( num1 % 2 == 0) {
     document.write('el '+ num1 +' es divisible en 2');
 }else{
     document.write('el '+ num1 +' no es divisible en 2');
